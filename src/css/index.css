@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+/*helper*/
+.gray{color:#999}
+.black{color:#333}
+.white{color:#fff}
+.greenBG{background: #00a73d}
+.orangeBG{background: #ff8e01}
+.redBG{background: #ff2f3c}
+.mrgb20{margin-bottom:20px}
+.mrgb100{margin-bottom:100px}
+.mrgt20{margin-top:20px}
+.mainLbl{color:#555; margin:25px 0 45px; font-size: 15px}
+.noPad{padding:0}
+.upper-case{text-transform: uppercase}
+
+/*card*/
+.cardShadow{box-shadow: 0px 0px 10px rgba(204, 204, 204, 0.42);border-radius: 3px;}
+
+/*upper-card*/
+.upperCard{background: #fff;padding: 15px;position:relative;}
+.upperCard .box{position: absolute; left:10px; top:-10px; width:50px; height: 50px; display: block}
+.upperCard .space{background: #ff8901}
+.upperCard .revenue{background: #02ac42}
+.upperCard .issues{background: #fb192d}
+.upperCard .follower{background: #01b6cb}
+.upperCard .data{text-align:right;}
+.upperCard .title{font-size: 13px; margin:0 0 10px; text-align:right;}
+.upperCard .number{font-size: 16px; padding: 0 5px}
+.upperCard footer{border-top: 1px #eee solid;margin: 15px 0 0;padding: 5px 0 0}
+.upperCard footer span{font-size: 13px}
+.upperCard .warningIco:before{content:" ♠ "; font-size: 15px}
+.upperCard .revenueIco:before{content:" ♣ "; font-size: 15px}
+.upperCard .issuesIco:before{content:" ♥ "; font-size: 15px}
+.upperCard .followerIco:before{content:" ♦ "; font-size: 15px}
+
+/*nav*/
+.leftNavCont{background: #f9fafc; padding: 10px; box-shadow: 2px 0px 10px rgba(204, 204, 204, 0.42);}
+.leftNavCont .lbl{font-size: 20px;margin: 20px 0;padding: 0 0 20px;border-bottom: 1px #eee solid;}
+.leftNav{ list-style: none; margin:0; padding: 0 }
+.leftNav .nav-item{margin: 10px 10px; padding: 15px 10px; cursor: pointer;}
+.leftNav .nav-item .fa{padding:0 10px}
+.leftNav .nav-item.active{background: #ac00b6; color:#fff}
+
+/*chart Card*/
+.chartCard{background: #fff;padding: 100px 15px 15px;position:relative;}
+.chartCard .box{position: absolute; top:-70px;  height: 170px; display: block; width:calc(100% - 30px)}
+.chartCard footer{border-top: 1px #eee solid;margin: 15px 0 0;padding: 5px 0 0}
+.chartCard footer span{font-size: 13px}
+.chartCard .title{font-size: 19px; margin:20px 0 10px}

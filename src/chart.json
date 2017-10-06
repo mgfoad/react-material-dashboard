@@ -1,0 +1,36 @@
+{"linaChartData1":[
+    {"name": "A", "uv": 35},
+    {"name": "B", "uv": 2},
+    {"name": "C", "uv": 21},
+    {"name": "D", "uv": 45},
+    {"name": "E", "uv": 20},
+    {"name": "F", "uv": 50},
+    {"name": "G", "uv": 10}
+],
+"linaChartData2":[
+    {"name": "A", "uv": 10},
+    {"name": "B", "uv": 25},
+    {"name": "C", "uv": 7},
+    {"name": "D", "uv": 30},
+    {"name": "E", "uv": 20},
+    {"name": "F", "uv": 30},
+    {"name": "G", "uv": 20}
+],
+
+"barChartData1":[
+
+{"name": "Jan", "uv": 222},
+{"name": "Feb", "uv": 155},
+{"name": "Mar", "uv": 333},
+{"name": "Apr", "uv": 272},
+{"name": "Mai", "uv": 353},
+{"name": "Jun", "uv": 115},
+{"name": "Jul", "uv": 999},
+{"name": "Aug", "uv": 710},
+{"name": "Sep", "uv": 140},
+{"name": "Oct", "uv": 910},
+{"name": "Nov", "uv": 888},
+{"name": "Dec", "uv": 180}
+]
+
+}
